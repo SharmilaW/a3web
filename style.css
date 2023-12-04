@@ -351,7 +351,7 @@ a {
 }
 
 .card-item .arrow {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   transform: rotate(-35deg);
@@ -363,6 +363,13 @@ a {
   margin-top: 40px;
   transition: 0.2s ease;
 }
+
+.card-item .arrow i{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .card-list .card-item:hover .arrow  {
   background: #000;
