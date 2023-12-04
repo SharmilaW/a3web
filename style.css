@@ -350,7 +350,11 @@ a {
   font-weight: 600;
 }
 
-.card-item .arrow {
+.card-item .arrow-text {
+  display: inline;
+}
+
+.card-item .arrow-text .arrow {
   display: flex;
   align-items: center;
   justify-content: center;
