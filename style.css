@@ -352,7 +352,8 @@ a {
 
 .card-item .arrow-text {
   display: inline-flex;
-  color: #000
+  color: #000;
+  margin-top: 40px;
 }
 
 .card-item .arrow-text .arrow {
