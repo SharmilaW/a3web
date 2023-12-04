@@ -374,6 +374,13 @@ a {
   color: #fff; 
 }
 
+.card-item .arrow-text .register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000
+}
+
 @media (max-width: 1200px) {
   .card-list .card-item {
       padding: 15px;
