@@ -352,6 +352,7 @@ a {
 
 .card-item .arrow-text {
   display: inline;
+  color: #000
 }
 
 .card-item .arrow-text .arrow {
