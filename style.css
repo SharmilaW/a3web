@@ -88,6 +88,9 @@ a {
   display: none;
 }
 
+.nav .user-icon{
+  font-weight: 10px;
+}
 
 /* responsive */
 @media screen and (max-width: 1160px) {
