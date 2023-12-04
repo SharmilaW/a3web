@@ -1,42 +1,65 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css\academy.css" />
-    
-    <!-- Unicons CSS -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoAcademy</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="academy.css">
 
     <!-- JavaScript -->
-    <script src="js\script.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">GeoSolution</a>
 
-    </head>
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Academy</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
 
-
-    <body>
-        <!-- Header Section -->
-        <nav class="nav">
-            <i class="uil uil-bars navOpenBtn"></i>
-            <a href="#" class="logo">GeoSolution</a>
-    
-            <ul class="nav-links">
-                <i class="uil uil-times navCloseBtn"></i>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="html\academy.html">Academy</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-    
-            <i class="uil uil-search search-icon" id="searchIcon"></i>
-            <div class="search-box">
-                <i class="uil uil-search search-icon"></i>
-                <input type="text" placeholder="Search here..." />
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+            <i class="uil uil-search search-icon"></i>
+            <input type="text" placeholder="Search here..." />
+        </div>
+    </nav>
+    <div class="card-list">
+        <a href="#" class="card-item">
+            <img src="images/developer.jpg" alt="Card Image">
+            <span class="developer">Developer</span>
+            <h3>A "developer" codes software and websites.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
             </div>
-        </nav>
-    </body>
+        </a>
+        <a href="#" class="card-item">
+            <img src="images/designer.jpg" alt="Card Image">
+            <span class="designer">Designer</span>
+            <h3>A "designer" is a design expert.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="#" class="card-item">
+            <img src="images/editor.jpg" alt="Card Image">
+            <span class="editor">Editor</span>
+            <h3>An "editor" ensures content quality and accuracy.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+    </div>
+</body>
 </html>
