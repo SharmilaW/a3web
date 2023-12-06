@@ -941,6 +941,9 @@ width: 3vw;
 }
 
 /*Board CSS*/
+.board{
+  display:block
+}
 .board h2 {
   font-size: 50px;
   font-weight: bold;
@@ -949,7 +952,6 @@ width: 3vw;
   text-align: center;
   padding-top: 20px;
 }
-
 
 @media screen and (max-width: 980px) {
   .board {
