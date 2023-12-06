@@ -162,7 +162,7 @@ a {
   }
 }
 
-/* ___Services___ */
+/* ___Services page Designed by Myles___ */
 
 /* Using a flex box property to display the images in rows */
 /* Idea gotten and modified from GreatStack and Mr. Web Designer's Youtube channels. */
@@ -172,11 +172,10 @@ a {
 
 .servrow{
   display: flex;
-  flex-wrap: wrap;  /*--Allows content shift to page bottom--*/
+  flex-wrap: wrap;/*--Allows content shift to page bottom--*/
   padding: 30px;
   margin-top: 2%;
-
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .serv h1{
@@ -192,9 +191,11 @@ a {
   padding-left: 20%;
 }
 
+
+/* Couldn't get the gaps to be even for the wrapped containers */
 .servcol{
-  flex-basis: calc(30% - 20px);  /* Adjusted to fit content and allow proper breaking */
-  /* border-radius: 30px; */
+   flex-basis: calc(20% - 20px);  /*Adjusted to fit content and allow proper breaking */
+  border-radius: 30px;
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
@@ -263,7 +264,7 @@ a {
   background-color: #343434;
   border: 1px solid white;
   width: 30%;
-  padding: 2%;
+  padding: 0.5%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
