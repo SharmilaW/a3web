@@ -710,8 +710,63 @@ width: 3vw;
 }
 /* Portfolio CSS End */
 
+/* About US*/
+.about-us{
+  width: 100%;
+  padding: 0px;
+  background: #fff;
+  padding-bottom: 0px;
+}
+
+.about-us .about{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about .text{
+  width: 80%;
+  text-align: justify;
+  padding-top: 100px;
+}
+
+.about .text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.data{
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
 
 
+.team-member p{
+  font-size: 18px;
+  background: #00000055;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+}
 
 
 
