@@ -862,7 +862,7 @@ width: 3vw;
   width: 100%;
   position: relative;
   z-index:-1;
-  background: url("../media/bg.jpg");
+  background: url("./media/bg.jpg");
   background-position: center 65%;
   background-size: cover;
   background-attachment: fixed;
