@@ -1051,7 +1051,7 @@ width: 3vw;
 }
 
 
-/* Team Slider
+/* Team Slider */
 .slide-container{
   max-width: 1120px;
   width: 100%;
@@ -1173,4 +1173,4 @@ width: 3vw;
   .swiper-navBtn{
     display: none;
   }
-} */
+}
