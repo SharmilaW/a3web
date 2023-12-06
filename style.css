@@ -268,7 +268,7 @@ a {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-/* ----responsive sections for services---- */
+/* ----responsive sections for services page---- */
 @media screen and (max-width: 768px){
   .servrow{
       flex-direction: column;
@@ -464,8 +464,7 @@ html, main{
   /* extra things will hide */
 }
 #page{
-  /* to take space of the page but ot the main */
-  position: relative;
+  position: relative;           /* to take space of the page but ot the main */
   height: 80vh;
   width: 100vw;
   background-color: #efefef;
@@ -476,7 +475,6 @@ html, main{
   cursor: default;
   border-bottom: solid 2px black;
   padding: 0;
-
 }
 
 #page>img{
@@ -486,7 +484,7 @@ html, main{
   transform: translateY(-50%);
   border-radius: 5%;
 }
-#text{
+#text{          /* Styling the position, height and width of the container with id text */
   padding: 30px 50px;
   position: absolute;
   top: 15%;
@@ -494,7 +492,7 @@ html, main{
   height: 65%;
   width: 45%;
 }
-#text>h1{
+#text>h1{         /* Styling the heading of the page */
   margin-top: 20px;
   font-size: 60px;
   line-height: 1;
@@ -521,25 +519,23 @@ html, main{
   height: 10%;
   width: 40%;
 }
-#buttons>button{
+#buttons>button{        /* Styling the content inside the button */
   padding: 8px 20px;
   border-radius: 10px;
   border: none;
   background-color: gray;
   font-weight: bold;
-
-
 }
 #buttons>button>i{
   font-size: 15px;
 }
-#page1{
+#page1{           /* Styling the 2nd container with id page1 */
   position: relative;
   height: 70vh;
   width: 100vw;
   background-color: #efefef;
 }
-#page1>#right{
+#page1>#right{         /* gives the position absolute and provide its position, height, width and background */
   position: absolute;
   right: 5%;
   height: 90%;
@@ -548,7 +544,7 @@ html, main{
   width: 40%;
   background-color: #EFEFEF;
 }
-#page1>#right>.box{
+#page1>#right>.box{       /* Providing the size, background and border to the container with id box */
   display: inline-block;
   justify-content: center;
   height: 33.33%;
@@ -565,6 +561,7 @@ padding: 10px 20%;
 font-weight: 20;
 }
 .circle{
+  /* positioning absolutet to change its position, cutting the content arrow inside the circle to cente, aligning straight and provoding backgroumd and radius*/
 position: absolute;
 display: flex;
 align-items: center;
@@ -575,7 +572,7 @@ width: 2vw;
 border-radius: 50%;
 background-color: grey;
 }
-.circle>i{
+.circle>i{            /* Styling the arrow insoide the sircle */
 color: #fff;
 font-size: 20px;
 }
@@ -594,11 +591,12 @@ position: absolute;
 margin-top: 60px;
 left: 20%;
 }
-#page1>#leftpg1>.expertise>h3{
+#page1>#leftpg1>.expertise>h3{    /* Styling the text */
 font-size: 30px;
 line-height: 55px;
 }
-#page1>#leftpg1>.expertise>p{
+#page1>#leftpg1>.expertise>p{     /* Styling the text */
+  font-size: 20px;
 font-size: 20px;
 line-height: 40px;
 }
@@ -627,7 +625,7 @@ display: grid;
 grid-column: 1/2;
 grid-row: 1/2;
 }
-.stacked>img{
+.stacked>img{     /* providing padding to image inside the card container */
 padding: 0 2rem;
 }
 .card__content{
@@ -639,6 +637,7 @@ padding: 0.3rem 2rem;
 line-height: 25px;
 }
 .product-grid{
+  /* Styling the grid, providing padding, gap and make its position change according the viewsize. */
 padding-bottom: 20px;
 display: grid;
 gap: 1.5rem;
@@ -646,11 +645,12 @@ grid-template-columns:
     repeat(auto-fit, minmax(27rem, 1fr));
 }
 .card{
+   /* providing the card container background-color, border rasius and border type */
 background-color: white;
 border-radius: 2%;
 border: 2px solid black;
 }
-@media only screen and (max-width: 1244px){
+@media only screen and (max-width: 1244px){        /* To make a responsive page-portfolio */
 #page{
   height: 100vh;
 }
@@ -672,7 +672,7 @@ height: 3vw;
 width: 3vw;
 }
 }
-@media only screen and (max-width: 912px){
+@media only screen and (max-width: 912px){      /* To make a responsive page-portfolio */
 #page>img{
   width: 300px;
   left:35%;
@@ -697,7 +697,7 @@ width: 3vw;
   width: 30%;
 }
 }
-@media only screen and (max-width: 570px){
+@media only screen and (max-width: 570px){        /* To make a responsive page-portfolio */
 #page>img{
   /* width: 250px; */
   left:15%;
@@ -1005,11 +1005,60 @@ width: 3vw;
 }
 
 .items p{
-  font-size: 20px;
-  padding-left: 20px;
-  padding-top: 20%;
   float: left;
+  text-align: justify;
+  line-height: 20px;
+  width: 80%;
+  padding-left: 20%;
 }
+
+.contentholder h1{
+  margin-top: 3.5%;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  background-color: #343434;
+  color: white;
+  padding: 1%;
+}
+
+.contentholder P{
+  padding: 2%;
+  width: 100%;
+  text-align: justify;
+}
+
+.steps{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #343434;
+  padding: 1%;
+  letter-spacing: 0.1em;
+}
+
+.contentholder .servcol{
+  border-radius: 2%;
+  padding: 2%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 300px;
+}
+
+.contentholder .servcol h2{
+  background-color: #343434;
+  color: white;
+}
+
+@media screen and (max-width: 768px){
+  .contentholder h1{
+    margin-top: 12.5%;
+    
+  }
+
+}
+
 /* responsive design */
 @media screen and (max-width: 768px){
   .vision{
