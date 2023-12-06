@@ -738,6 +738,11 @@ width: 3vw;
   text-align: center;
 }
 
+.text h3{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
 .text h5{
   font-size: 22px;
   font-weight: 500;
@@ -757,6 +762,9 @@ width: 3vw;
   padding-bottom: 0px;
 }
 
+.team-member{
+  padding-top: 40px;
+}
 
 .team-member p{
   font-size: 18px;
