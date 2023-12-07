@@ -974,9 +974,6 @@ width: 3vw;
   text-align: center;
   margin-bottom: 10px;
 }
-/*footer cs Code ends */
-/*Kiran Code ends */
-
 /*CSS for home starts here */
 .homepage {
   height: 90vh;
@@ -1053,6 +1050,8 @@ width: 3vw;
   }
 }
 /*The home section ends here excepth for the js part*/
+/* CSS for the Surveying page by Sharmila starts here*/
+/* Same Layout from the services main page is used  */
 .contentholder h1{
   margin-top: 3.5%;
   text-transform: capitalize;
@@ -1099,49 +1098,7 @@ width: 3vw;
   }
 
 }
-.vision { /*This is the style for all the contnets of the vision section*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.items { /*the style for the class item of the vision section*/
-  flex-basis: 50%;
-    padding: 20px;
-}
-.items h2{ /*the style for h2 of the class item */
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.vision .items img { /*the style for image of the class item */
-    width: 100%;
-    height: auto;
-    max-width: 6016px;
-    max-height: 4016px;
-}
-
-.items p{ /*the style for paragraph p of the class item */
-  float: left;
-  text-align: justify;
-  line-height: 20px;
-  width: 80%;
-  padding-left: 20%;
-}
-/* responsive design for the vision section*/
-@media screen and (max-width: 768px){
-  .vision{
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 980px) {
-  .card-list {
-      margin: 0 auto;
-  }
-}
 /*CSS for the surveying page ends here*/
 
 /*Board CSS*/
