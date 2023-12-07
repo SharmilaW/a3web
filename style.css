@@ -162,7 +162,7 @@ a {
   }
 }
 
-/* ___Services page Designed by Myles___ */
+/* ___Services___ */
 
 /* Using a flex box property to display the images in rows */
 /* Idea gotten and modified from GreatStack and Mr. Web Designer's Youtube channels. */
@@ -172,10 +172,11 @@ a {
 
 .servrow{
   display: flex;
-  flex-wrap: wrap;/*--Allows content shift to page bottom--*/
+  flex-wrap: wrap;  /*--Allows content shift to page bottom--*/
   padding: 30px;
   margin-top: 2%;
-  justify-content: space-evenly;
+
+  justify-content: space-between;
 }
 
 .serv h1{
@@ -191,11 +192,9 @@ a {
   padding-left: 20%;
 }
 
-
-/* Couldn't get the gaps to be even for the wrapped containers */
 .servcol{
-   flex-basis: calc(20% - 20px);  /*Adjusted to fit content and allow proper breaking */
-  border-radius: 30px;
+  flex-basis: calc(30% - 20px);  /* Adjusted to fit content and allow proper breaking */
+  /* border-radius: 30px; */
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
@@ -264,11 +263,11 @@ a {
   background-color: #343434;
   border: 1px solid white;
   width: 30%;
-  padding: 0.5%;
+  padding: 2%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-/* ----responsive sections for services page---- */
+/* ----responsive sections for services---- */
 @media screen and (max-width: 768px){
   .servrow{
       flex-direction: column;
@@ -880,21 +879,12 @@ width: 3vw;
   height: 90vh;
   width: 100%;
   position: relative;
-  background: url("./media/bg.jpg");
+  background: url("./media/bg.jpg"); /*image source https://unsplash.com/ */
   background-position: center 65%;
   background-size: cover;
   background-attachment: fixed;
 }
-.homepage::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.2);
-}
-.homepage .content {
+.homepage .content { /*This is for the content that is inside the homepage*/
   display: flex;
   height: 85%;
   z-index: 3;
@@ -902,51 +892,64 @@ width: 3vw;
   justify-content: center;
   flex-direction: column;
 }
-.homepage .content h1 {
-  font-size: 60px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.homepage .content .text {
+.homepage .content .text {/*This styles the text class inside the homepage*/
   margin-bottom: 50px;
   color: #fff;
   font-size: 20px;
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+.homepage .content h1 {/* this is the style for h1 inside the content of the homepage*/
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 /* vision css starts here */
-.items {
+.vision { /*This is the style for all the contnets of the vision section*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items { /*the style for the class item of the vision section*/
   flex-basis: 50%;
     padding: 20px;
 }
-.items h2{
+.items h2{ /*the style for h2 of the class item */
     font-size: 50px;
     font-weight: bold;
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
 }
-.vision {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.vision .items img {
+.vision .items img { /*the style for image of the class item */
     width: 100%;
     height: auto;
     max-width: 6016px;
     max-height: 4016px;
 }
 
-.items p{
+.items p{ /*the style for paragraph p of the class item */
   float: left;
   text-align: justify;
   line-height: 20px;
   width: 80%;
   padding-left: 20%;
 }
-
+/* responsive design for the vision section*/
+@media screen and (max-width: 768px){
+  .vision{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 980px) {
+  .card-list {
+      margin: 0 auto;
+  }
+}
+/*The home section ends here excepth for the js part*/
 .contentholder h1{
   margin-top: 3.5%;
   text-transform: capitalize;
@@ -957,7 +960,7 @@ width: 3vw;
   color: white;
   padding: 1%;
 }
-
+/*css for the surveying page image section*/
 .contentholder P{
   padding: 2%;
   width: 100%;
@@ -993,8 +996,39 @@ width: 3vw;
   }
 
 }
+.vision { /*This is the style for all the contnets of the vision section*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-/* responsive design */
+.items { /*the style for the class item of the vision section*/
+  flex-basis: 50%;
+    padding: 20px;
+}
+.items h2{ /*the style for h2 of the class item */
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.vision .items img { /*the style for image of the class item */
+    width: 100%;
+    height: auto;
+    max-width: 6016px;
+    max-height: 4016px;
+}
+
+.items p{ /*the style for paragraph p of the class item */
+  float: left;
+  text-align: justify;
+  line-height: 20px;
+  width: 80%;
+  padding-left: 20%;
+}
+/* responsive design for the vision section*/
 @media screen and (max-width: 768px){
   .vision{
     flex-direction: column;
@@ -1005,6 +1039,7 @@ width: 3vw;
       margin: 0 auto;
   }
 }
+/*CSS for the surveying page ends here*/
 
 /*Board CSS*/
 .board{
