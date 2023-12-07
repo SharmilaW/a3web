@@ -1232,14 +1232,14 @@ width: 3vw;
   transition: all 0.3s ease;
 }
 .button:hover{
-  background: #265DF2;
+  background: purple;
 }
 .swiper-navBtn{
   color: black;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-  color: paleturquoise;
+  color: purple;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
@@ -1256,7 +1256,7 @@ width: 3vw;
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
-  background-color: #4070F4;
+  background-color: purple;
 }
 
 @media screen and (max-width: 768px) {
