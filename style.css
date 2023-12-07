@@ -385,7 +385,7 @@ a {
   gap: 20px;
 }
 
-.card-list .card-item {
+.card-list .card-item {           /* Styling card-item class */
   background: #fff;
   padding: 26px;
   border-radius: 8px;
@@ -397,11 +397,11 @@ a {
   transition: border 0.5s ease;
 }
 
-.card-list .card-item:hover {
+.card-list .card-item:hover {               /* gives the border to card-item class on hover */
   border: 2px solid #000;
 }
 
-.card-list .card-item img {
+.card-list .card-item img {                 /* Styles the image inside the card-item class */
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 8px;
@@ -418,22 +418,22 @@ a {
   font-weight: 600;
 }
 
-.card-list .developer {
+.card-list .developer {             /* styles the color and background color of the class developer */
   background-color: #F7DFF5; 
   color: #B22485;
 }   
 
-.card-list .designer {
+.card-list .designer {              /* styles the color and background color of the class developer */
   background-color: #d1e8ff;
   color: #2968a8;
 }
 
-.card-list .editor {
+.card-list .editor {                 /* styles the color and background color of the class developer */
   background-color: #d6f8d6; 
   color: #205c20;
 }
 
-.card-item h3 {
+.card-item h3 {                     /* Styles the text h3 inside the card-item class */
   color: #000;
   font-size: 1.438rem;
   margin-top: 28px;
@@ -446,6 +446,7 @@ a {
 }
 
 .card-item .arrow-text .arrow {
+  /* Styles the arrow class providing position, height, width, color, border */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -460,11 +461,12 @@ a {
 }
 
 .card-list .card-item:hover .arrow  {
+  /* styles the background color and color of the arrow on hover */
   background: #000;
   color: #fff; 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {      /* to make page responsive */
   .card-list .card-item {
       padding: 15px;
   }
@@ -478,7 +480,7 @@ a {
 
 
 
-/* Portfolio CSS start */
+/* Portfolio CSS start: Simon */
 html, main{
   height: 100%;
   width: 100%;
@@ -504,6 +506,7 @@ html, main{
 }
 
 #page>img{
+  /* Styling the image prividing its position, and radiue */
   position: absolute;
   right: 10%;
   top: 50%;
@@ -524,20 +527,24 @@ html, main{
   line-height: 1;
 }
 #text>h2{
+  /* Styling the text */
   font-size: 20px;
 }
 #text>h4{
+  /* Styling the text */
   margin-top: 30px;
   font-size: 18px;
   font-weight: 500;
 }
 #text>h5{
+  /* Styling the text */
   transform: rotate(-40deg);
   position: absolute;
   left: 4%;
   font-size: 20px;
 }
 #buttons{
+  /* Styling the button container providing position, height and width */
   margin-left: 20px;
   position: absolute;
   left: 10%;
@@ -545,7 +552,7 @@ html, main{
   height: 10%;
   width: 40%;
 }
-#buttons>button{        /* Styling the content inside the button */
+#buttons>button{        /* Styling the content inside the button, providing the border, background-colorand weight of font */
   padding: 8px 20px;
   border-radius: 10px;
   border: none;
@@ -604,10 +611,12 @@ font-size: 20px;
 }
 
 .circle:hover{
+  /* Changes the background color */
   background-color: #343434;
 }
 
 #page1>#leftpg1{
+  /* Styling the leftpg1 container position and size */
 position: relative;
 height: 100%;
 width: 50%;
@@ -725,7 +734,6 @@ width: 3vw;
 }
 @media only screen and (max-width: 570px){        /* To make a responsive page-portfolio */
 #page>img{
-  /* width: 250px; */
   left:15%;
   top: 30%;
 }
@@ -759,7 +767,7 @@ width: 3vw;
   padding: 0.3rem 0;
 }
 }
-/* Portfolio CSS End */
+/* Portfolio CSS End Simon*/
 
 /* About US CSS file starts*/
 /*Kiran CSS starts*/
