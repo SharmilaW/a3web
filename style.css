@@ -162,8 +162,7 @@ a {
   }
 }
 
-/* ___Services___ */
-
+/* ___Services Designed By Omasanjuwa___ */
 /* Using a flex box property to display the images in rows */
 /* Idea gotten and modified from GreatStack and Mr. Web Designer's Youtube channels. */
 .serv{
@@ -194,7 +193,9 @@ a {
 
 .servcol{
   flex-basis: calc(30% - 20px);  /* Adjusted to fit content and allow proper breaking */
-  /* border-radius: 30px; */
+  border-radius: 30px;
+  max-width: 366px;
+  max-height: 274px;
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
@@ -263,7 +264,7 @@ a {
   background-color: #343434;
   border: 1px solid white;
   width: 30%;
-  padding: 2%;
+  padding: 0.5%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
