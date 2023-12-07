@@ -1251,13 +1251,6 @@ width: 3vw;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.swiper-pagination-bullet{
-  background-color: black;
-  opacity: 1;
-}
-.swiper-pagination-bullet-active{
-  background-color: purple;
-}
 
 @media screen and (max-width: 768px) {
   .slide-content{
