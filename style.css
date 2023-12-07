@@ -174,9 +174,9 @@ a {
   flex-wrap: wrap;  /*--Allows content shift to page bottom--*/
   padding: 30px;
   margin-top: 2%;
-
   justify-content: space-between;
 }
+
 
 .serv h1{
   text-align: center;
@@ -303,7 +303,7 @@ a {
   letter-spacing: 0.1em;
 }
 
-.contentholder .servcol{
+.contentholder .servcol1{
   border-radius: 2%;
   padding: 2%;
   text-align: center;
@@ -315,6 +315,23 @@ a {
   background-color: #343434;
   color: white;
 }
+
+.servrow1{
+  display: flex;
+  flex-wrap: wrap;  /*--Allows content shift to page bottom--*/
+  padding: 30px;
+  margin-top: 2%;
+  justify-content: space-between;
+}
+
+.servcol1{
+  flex-basis: calc(30% - 20px);  /* Adjusted to fit content and allow proper breaking */
+  border-radius: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
 
 @media screen and (max-width: 768px){
   .contentholder h1{
