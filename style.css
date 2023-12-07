@@ -1220,20 +1220,6 @@ width: 3vw;
   color: #707070;
   text-align: center;
 }
-.button{
-  border: none;
-  font-size: 16px;
-  color: #FFF;
-  padding: 8px 16px;
-  background-color: black;
-  border-radius: 6px;
-  margin: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.button:hover{
-  background: #3856aaaf;
-}
 
 .swiper-navBtn{
   color: black;
