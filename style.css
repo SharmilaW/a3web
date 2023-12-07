@@ -901,7 +901,7 @@ width: 3vw;
 /*Style of footer row of footer class*/
 .footer .footer-row {
   display: flex;
-  justify-content: center;
+  justify-content: center; /*content aligning to center*/
   gap: 15rem;
   padding-bottom: 10px;
   padding-top: 20px;
