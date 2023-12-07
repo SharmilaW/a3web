@@ -3,7 +3,7 @@
 **Rajesh Dulal**: JavScript, Worked on the responsive navbar, search icon, Academy page, and the Geo-Spatial page of the website, 
 **Simon Priyar**: Worked on the Cartography page and the portfolio page
 **Sharmila Wagle**: Worked on the landing page, and the surveying page of the website
-**Kiran Duwadi**: Worked on creating the footer, about us page, and the [to be updated]
+**Kiran Duwadi**: Worked on creating the footer, about us page, and the Database management page
 **Omasanjuwa Esun**: Is the CEO of this company but still had to work. Worked on the Services page, the layout of the website, and the Python automation page.
 
 
