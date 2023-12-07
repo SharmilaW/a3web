@@ -274,6 +274,10 @@ a {
       flex-direction: column;
 
   }
+
+  .servrow1{
+    flex-direction: column;
+  }
 }
 
 /* ---Design for each page about a service we offer */
