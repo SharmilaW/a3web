@@ -459,7 +459,7 @@ a {
   margin-top: 40px;
   transition: 0.2s ease;
 }
-
+/* There is one error on this CSS which use is from https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css stylesheet. */
 .card-list .card-item:hover .arrow  {
   /* styles the background color and color of the arrow on hover */
   background: #000;
